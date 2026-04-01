@@ -1,4 +1,6 @@
 package tahty_26;
+import java.util.Scanner;
+import java.util.ArrayList;
 
 public class Main {
 
