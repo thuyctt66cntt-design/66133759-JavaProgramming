@@ -1,5 +1,5 @@
 package thigk2_ChuThiThanhThuy;
 
-public class QLsanpham {
+public class SanPham {
 
 }
