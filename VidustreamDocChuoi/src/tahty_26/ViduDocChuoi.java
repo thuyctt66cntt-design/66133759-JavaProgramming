@@ -9,14 +9,14 @@ import java.io.InputStreamReader;
 public class ViduDocChuoi {
 
 	public static void main(String[] args) throws IOException {
-		FileInputStream fInput = new FileInputStream("baitap.txt");
+		FileInputStream fInput = new FileInputStream("baitap.txt"); //dia chỉ tương đối;
 		//Khai báo biến đối tượng InputStreamReader
 		InputStreamReader ipReader = new InputStreamReader(fInput);
 		//Khai báo biến đối tượng Buffer
 		BufferedReader bufReader = new BufferedReader(ipReader);
 		//Đọc 1 dòng dữ liệu từ file, cất vào biến chuỗi
-		String line1 = bufReader.readLine();
 		//In ra dòng đọc được
+		String line1 = bufReader.readLine();
 		System.out.println(line1);
 		String line2 = bufReader.readLine();
 		System.out.println(line2);
