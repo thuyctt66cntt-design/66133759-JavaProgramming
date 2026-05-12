@@ -47,15 +47,15 @@ public class Main extends Application {
 	gridPane.add(button1, 0, 2);
 	gridPane.add(button2, 1, 2);
 	//Styling nodes
-	button1.setStyle("-fx-background-color: darkslateblue; -fx");
-	button2.setStyle("-fx-background-color: darkslateblue; -fx");
+	button1.setStyle("-fx-background-color: darkslateblue; -fx-text-fill: white;");
+	button2.setStyle("-fx-background-color: darkslateblue; -fx-text-fill: white;");
 	text1.setStyle("-fx-font: normal bold 20px 'serif' ");
 	text2.setStyle("-fx-font: normal bold 20px 'serif' ");
 	gridPane.setStyle("-fx-background-color: BEIGE;");
 	//Creating a scene object
 	Scene scene = new Scene(gridPane);
 	//Setting title to the Stage
-	stage.setTitle("CSS Example");
+	stage.setTitle("Login cụa Thanh Thý");
 	//Adding scene to the stage
 	stage.setScene(scene);
 	//Displaying the contents of the stage
